@@ -1,19 +1,19 @@
 /*
- * This file is part of KubeSphere Console.
- * Copyright (C) 2019 The KubeSphere Console Authors.
+ * This file is part of KylinContainerCloud Console.
+ * Copyright (C) 2019 The KylinContainerCloud Console Authors.
  *
- * KubeSphere Console is free software: you can redistribute it and/or modify
+ * KylinContainerCloud Console is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * KubeSphere Console is distributed in the hope that it will be useful,
+ * KylinContainerCloud Console is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU Affero General Public License for more details.
  *
  * You should have received a copy of the GNU Affero General Public License
- * along with KubeSphere Console.  If not, see <https://www.gnu.org/licenses/>.
+ * along with KylinContainerCloud Console.  If not, see <https://www.gnu.org/licenses/>.
  */
 
 export default {
@@ -201,6 +201,7 @@ export default {
   Fold: '折叠',
   Unfold: '展开',
 
+  'Secure rank': '保密级别',
   'Basic Info': '基本信息',
   'Pod Template': '容器组模板',
   'Volume Settings': '存储卷设置',
@@ -261,10 +262,10 @@ export default {
   MINUTE_AGO: '{count} 分钟前',
   MINUTE_TIME: '{count} 分钟',
 
+  SECURE_RANK_DESC: '选择特定的保密级别',
   NAME_DESC:
     '最长 63 个字符，只能包含小写字母、数字及分隔符("-")，且必须以小写字母或数字开头及结尾',
   NAME_TOO_LONG: '最长 63 个字符',
-
   LONG_NAME_DESC:
     '最长 253 个字符，只能包含小写字母、数字及分隔符("-")，且必须以小写字母或数字开头及结尾',
   LONG_NAME_TOO_LONG: '最长 253 个字符',
@@ -433,7 +434,7 @@ export default {
   EVENT_CREATE_DESC: '您可以改变搜索条件重新查询',
   'Event Search': '事件查询',
   EVENT_SEARCH_DESC: '针对企业空间、项目、资源等多维度的事件查询工具。',
-  EVENT_DESC: '事件查询（Event）是KubeSphere提供的平台内资源的历史事件查询',
+  EVENT_DESC: '事件查询（Event）是麒麟容器云提供的平台内资源的历史事件查询',
   'Search By Condition': '根据条件进行查找',
   'search condition': '搜索条件',
   'Search tips': '搜索提示',
@@ -443,7 +444,7 @@ export default {
   'workspaces found': '共找到 {count} 个企业空间',
   'rules text': '如何定义操作审计收集规则？ 🤔',
   'rules desc':
-    'KubeSphere可以根据您设置的规则进行操作审计的收集，点击查看如何定义规则。',
+    '麒麟容器云可以根据您设置的规则进行操作审计的收集，点击查看如何定义规则。',
   Category: '类别',
   Resource: '资源',
   'Earliest start time': '最早发生时间',
@@ -493,7 +494,7 @@ export default {
   'Learn more': '了解更多',
 
   KS_DESCRIPTION:
-    'KubeSphere 是一款开源项目，在目前主流容器调度平台 Kubernetes 之上构建的企业级分布式多租户容器管理平台，提供简单易用的操作界面以及向导式操作方式，在降低用户使用容器调度平台学习成本的同时，极大降低开发、测试、运维的日常工作的复杂度。',
+    '银河麒麟容器云，为用户提供高性能可伸缩的应用管理服务，基于docker和kubernetes之上构建的以应用为中心的多租户容器平台，提供全栈的IT自动化运维能力。平台简化了容器管理集群的搭建工作，整合了银河麒麟容器、存储、网络和安全能力，为企业提供最佳的容器管理解决方案，满足企业不同类型的业务需求，可帮助用户更低成本地管理并扩展应用，降低IT成本。',
 
   REPS_ADDRESS: '项目地址',
   ISSUE_FEEDBACK: '问题反馈',
@@ -529,9 +530,9 @@ export default {
     '当您在多个企业空间或者项目下进行协同工作时，浏览器会记录下您最近访问的路径，您可以通过 F1 / (Win + K) / (Command + K) 查看历史记录，来快速切换您的访问资源。',
   NO_HISTORY_TITLE: '浏览器暂未收录到您对集群或者企业空间等区域的访问记录',
   NO_HISTORY_DESC: '您可以尝试对企业空间或者集群、项目等资源的访问',
-  USER_GUIDES_DESC: '最详尽的 KubeSphere 用户指南文档',
+  USER_GUIDES_DESC: '最详尽的 麒麟容器云 用户指南文档',
   DEVELOPER_DESC: '通过在开发者社区提出问题获得帮助',
-  API_DOCS_DESC: '最详尽的 KubeSphere API 文档',
+  API_DOCS_DESC: '最详尽的 麒麟容器云 API 文档',
   GITHUB_ISSUES_DESC: '通过在 GitHub 提出 Issue 获得帮助',
 
   ENV_PRODUCTION: '生产环境',

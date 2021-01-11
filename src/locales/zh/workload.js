@@ -1,19 +1,19 @@
 /*
- * This file is part of KubeSphere Console.
- * Copyright (C) 2019 The KubeSphere Console Authors.
+ * This file is part of KylinContainerCloud Console.
+ * Copyright (C) 2019 The KylinContainerCloud Console Authors.
  *
- * KubeSphere Console is free software: you can redistribute it and/or modify
+ * KylinContainerCloud Console is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
  *
- * KubeSphere Console is distributed in the hope that it will be useful,
+ * KylinContainerCloud Console is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU Affero General Public License for more details.
  *
  * You should have received a copy of the GNU Affero General Public License
- * along with KubeSphere Console.  If not, see <https://www.gnu.org/licenses/>.
+ * along with KylinContainerCloud Console.  If not, see <https://www.gnu.org/licenses/>.
  */
 
 export default {
@@ -140,8 +140,7 @@ export default {
 
   IMAGE_PLACEHOLDER: '点击右侧图标可选择镜像，或直接输入名称 例：nginx:latest',
   IMAGE_REGISTRY_PLACEHOLDER: '请选择镜像仓库密钥',
-  IMAGE_DESC:
-    '要从私有镜像仓库部署，需要先<a href={link} target="_blank">创建镜像仓库密钥</a>，然后拉取镜像。',
+  IMAGE_DESC: '要从私有镜像仓库部署，需要先创建镜像仓库密钥，然后拉取镜像。',
 
   Replicas: '副本',
   'Replicas Number': '副本数量',
@@ -533,8 +532,8 @@ export default {
     '容器组副本将会尽量部署在同一节点上',
   'Pod replicas will be deployed according to the default policy.':
     '容器组副本将根据默认策略部署',
-  'KubeSphere supports pulling images from the Image Registries and creating new images through source code (Source to Image).':
-    'Kubesphere 支持从镜像仓库拉取镜像以及通过代码构建新的镜像并部署',
+  'KylinContainerCloud supports pulling images from the Image Registries and creating new images through source code (Source to Image).':
+    '麒麟容器云支持从镜像仓库拉取镜像以及通过代码构建新的镜像并部署',
 
   'Scheduling Info': '调度信息',
   'Node Scheduling Info': '节点调度信息',
